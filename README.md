@@ -1,4 +1,4 @@
-# Deploying the Festava Website with Docker and Nginx
+# Deploying the Festava website with Docker and Nginx
 
 Deployment automated with bash scripts.
 
@@ -57,7 +57,7 @@ The provided Vagrant file simplifies VM Management.
    ```bash
    sudo apt-get install git
    git clone https://github.com/odennav/docker-nginx-festava.git
-   cd nginx-card
+   cd docker-nginx-festava
    ```
 
 6. **Practice with the Scripts:**
