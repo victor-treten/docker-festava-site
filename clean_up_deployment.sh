@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting festava-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:festava
+docker rmi odennav/nginx:festava
 sleep 5
 echo -e  "\n"
 

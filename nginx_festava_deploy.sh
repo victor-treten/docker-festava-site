@@ -10,7 +10,7 @@ echo -e "\n"
 echo "**********************************************************"
 echo "Editing Dockerfile"
 echo "FROM nginx:alpine" > Dockerfile
-echo "COPY ./2109_the_festava/ /usr/share/nginx/html" >> Dockerfile
+echo "COPY ./templatemo_583_festava_live/ /usr/share/nginx/html" >> Dockerfile
 echo -e "\n"
 
 echo "**********************************************************"
@@ -50,13 +50,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository with festava tag"
-docker tag festava-image:festava victortreten/repo_test:festava
+docker tag festava-image:festava odennav/nginx:festava
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push tagged image to dockerhub"
-docker push victortreten/repo_test:festava
+docker push odennav/nginx:festava
 sleep 5
 echo -e "\n"
 
