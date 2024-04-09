@@ -8,7 +8,7 @@ Automate deployment of the festava website with an Nginx server using Docker ima
 This repository includes scripts to push Docker images to your DockerHub repository and clean up deployment on local machine(optional).
 
 ******************
-![](https://github.com/odennav/docker-nginx-festava/blob/main/festava-shot.PNG) 
+![](https://github.com/odennav/docker-nginx-festava/blob/main/docs/festava-shot.PNG) 
 
 ## Special Credits
 
