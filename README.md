@@ -1,6 +1,6 @@
 # Deploying the Festava website with Docker
 
-Deployment automated with bash scripts in test environment.
+Deployment automated with bash scripts in Test environment.
 
 ## Overview
 
@@ -30,7 +30,7 @@ The provided Vagrant file simplifies VM Management.
    If you intend to use git bash with Windows and not linux VM, install chocolatey [here](https://chocolatey.org/install).
 
    Open powershell terminal and use chocolatey to install git bash .
-   ```bash
+   ```console
    choco install git
    ```
 
@@ -57,7 +57,7 @@ The provided Vagrant file simplifies VM Management.
    ```bash
    sudo apt-get install git
    git clone https://github.com/odennav/docker-festava-site.git
-   cd docker-nginx-festava
+   cd docker-festava-site
    ```
 
 6. **Practice with the Scripts:**
